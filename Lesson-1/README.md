@@ -7,3 +7,12 @@ This lesson talks about managing python environments. We talk about two approach
 
 Sample code for both these approach is same.
 The code does nothing but displays custom messages based on python version.
+
+## Usage
+
+python main.py
+
+## Result
+
+If you are using python version < 3, the program displays that Your code wont work here, else it displays a Welcome message.
+
