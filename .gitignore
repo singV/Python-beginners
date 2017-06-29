@@ -1,0 +1,13 @@
+.DS_Store
+
+# IDE
+*.idea
+
+# Compiled Object files
+*.pyc
+
+# All cache files
+.cache/
+
+# Virtual environment files
+venv/

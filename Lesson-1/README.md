@@ -8,9 +8,12 @@ This lesson talks about managing python environments. We talk about two approach
 Sample code for both these approach is same.
 The code does nothing but displays custom messages based on python version.
 
+## Video tutorial
+You can watch the working example of the lesson on youtube <Youtube video link>
+
 ## Usage
 
-python main.py
+```python main.py```
 
 ## Result
 
