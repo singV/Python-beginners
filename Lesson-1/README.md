@@ -12,6 +12,7 @@ The code does nothing but displays custom messages based on python version.
 You can watch the working example of the lesson on youtube:
 
 [Lesson-1: Part 1](https://www.youtube.com/watch?v=QG84l1yMh-s&t=43s)
+
 [Lesson-1: Part 2](https://www.youtube.com/watch?v=FSLr4ZJIUco&t=10s)
 
 
