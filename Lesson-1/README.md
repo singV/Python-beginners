@@ -9,13 +9,48 @@ Sample code for both these approach is same.
 The code does nothing but displays custom messages based on python version.
 
 ## Video tutorial
-You can watch the working example of the lesson on youtube <Youtube video link>
+You can watch the working example of the lesson on youtube:
+
+[Lesson-1: Part 1](https://www.youtube.com/watch?v=QG84l1yMh-s&t=43s)
+[Lesson-1: Part 2](https://www.youtube.com/watch?v=FSLr4ZJIUco&t=10s)
+
 
 # 1. Working with Python Docker Container
 
 ## Problems addressed
 
-## Commands
+What problems are we addressing here:
+
+1. Suppose you want to work on a python project with python version 3 but do not want to install/upgrade python on your machine
+2. You want a use and throw environment where you are just checking a python code (to check its compatibility with a certain python version). For this you do not want to install multiple python version on your machine and its required dependencies.
+3. You are learning python, using python for experimentation purpose.
+
+The solution to all these problems is docker containers. Docker containers help you to create a throwable virtual environment where you can run your applications without installing python or any required dependency on your machine.
+
+## Running a docker container
+
+**Prerequisites:** 
+
+Docker should be installed on your machine, if now, download it from [Docker site](https://www.docker.com/) and follow the instructions for your OS.
+
+**Command:**
+
+`docker run --it --name my-python-app -v "$(pwd)":/root/ python:3 /bin/bash`
+
+Arguments explained:
+
+`run` : Finds a docker image on your machine, if not available, downloads it from [Docker Hub](https://hub.docker.com/) and then run a container from that image.
+
+`--it` : Start container in an interactive Bash session (/bin/bash)
+
+`--name` : name of your container
+
+`-v` : Volume to be mounted from your Host machine to your container
+
+**python:3** : is the name of the image followed by tag (python version 3.6.1 is currently tagged as 3)
+
+To exit from container:
+
 
 ## Further reading
 
