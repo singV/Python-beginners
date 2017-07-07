@@ -32,7 +32,7 @@ The solution to all these problems is docker containers. Docker containers help 
 
 **Prerequisites:** 
 
-Docker should be installed on your machine, if now, download it from [Docker site](https://www.docker.com/) and follow the instructions for your OS.
+Docker should be installed on your machine, if you don't have it, download it from [Docker site](https://www.docker.com/) and follow the instructions for your OS.
 
 **Command:**
 
